@@ -2,11 +2,11 @@
 
 A machine learning project implementing Support Vector Machine (SVM) for classifying iris flowers into three species based on their physical characteristics.
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates the use of **Support Vector Machine (SVM)** for multi-class classification. SVM is a powerful supervised learning algorithm used for classification, regression, and outlier detection tasks. It works by finding the optimal hyperplane that separates data points of different classes in high-dimensional space.
 
-## 🎯 Objective
+## Objective
 
 Build an SVM classifier to predict the species of iris flowers based on four physical features:
 - Sepal length
@@ -14,7 +14,7 @@ Build an SVM classifier to predict the species of iris flowers based on four phy
 - Petal length
 - Petal width
 
-## 📊 Dataset
+## Dataset
 
 **Dataset**: Iris Flower Dataset (Built-in scikit-learn)
 
@@ -31,7 +31,7 @@ Build an SVM classifier to predict the species of iris flowers based on four phy
 
 **Dataset Size**: 150 samples (50 samples per class)
 
-## 🤖 What is Support Vector Machine (SVM)?
+## What is Support Vector Machine (SVM)?
 
 **Support Vector Machine (SVM)** is a supervised machine learning algorithm that:
 - Finds the optimal hyperplane that maximizes the margin between different classes
@@ -45,7 +45,7 @@ Build an SVM classifier to predict the species of iris flowers based on four phy
 3. **Margin**: Distance between the hyperplane and the nearest data points
 4. **Kernel**: Function to transform data into higher dimensions (for non-linear separation)
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.x**
 - **Libraries**:
@@ -128,7 +128,7 @@ The project includes scatter plots showing:
 - Clear visual separation between species
 - Color-coded markers for different species
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -153,7 +153,7 @@ pip install pandas matplotlib scikit-learn
    - Upload the notebook to Google Colab
    - Run all cells (no installation needed)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 iris-svm-classification/
@@ -164,7 +164,7 @@ iris-svm-classification/
 └── requirements.txt                  # Python dependencies
 ```
 
-## 🔍 Key Insights
+## Key Insights
 
 ### Why SVM Works Well for Iris Dataset:
 
@@ -184,7 +184,7 @@ iris-svm-classification/
    - SVM excels in 4D feature space
    - Finds optimal hyperplane efficiently
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - Loading and exploring built-in scikit-learn datasets
@@ -194,7 +194,7 @@ This project demonstrates:
 - SVM classifier implementation
 - Model evaluation and accuracy measurement
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] **Hyperparameter Tuning**
   - Experiment with different kernels (linear, RBF, polynomial)
